@@ -1,22 +1,22 @@
 {
-  "site_name": "DPT",
-  "header_title": "Darkfolio Portfolio Theme",
-  "first_letter_only": true,
-  "email": "nichlas@itsnwa.com",
+  "site_name": "Portfolio",
+  "header_title": "Justin Kuhn Media Portfolio",
+  "first_letter_only": false,
+  "email": "justintkuhn@gmail.com",
   "social": [
     {
       "channel": "twitter",
-      "handle": "nichlaswa",
+      "handle": "justinkuhnmedia",
       "link_text": "tw"
     },
     {
       "channel": "instagram",
-      "handle": "its.nwa",
+      "handle": "justinkuhnmedia",
       "link_text": "ig"
     },
     {
       "channel": "github",
-      "handle": "itsnwa",
+      "handle": "justinkuhn",
       "link_text": "gh"
     }
   ]
