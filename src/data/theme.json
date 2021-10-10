@@ -1,8 +1,8 @@
 {
   "site_name": "DPT",
   "header_title": "Darkfolio Portfolio Theme",
-  "first_letter_only": true,
-  "email": "nichlas@itsnwa.com",
+  "first_letter_only": false,
+  "email": "justintkuhn@gmail.com",
   "social": [
     {
       "channel": "twitter",
