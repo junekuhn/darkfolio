@@ -1,11 +1,11 @@
 ---
-title: "CV"
-thumbnail: "../static/uploads/827e4260883469.5a5cccc989703.jpg"
+title: CV
+thumbnail: ''
 year: "2018"
 categories:
-  - graphic
----
+- CV
 
+---
 ## this is my cv
 
 ICAD
