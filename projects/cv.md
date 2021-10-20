@@ -20,6 +20,12 @@ North Carolina State University - Electrical Engineering BS, Class of 2018
 
 North Carolina State University - Arts Studies BA, Class of 2018
 
+###### Scholarships
+
+Diversity Scholarship  - Audio Developer Conference 2021, London UK
+
+Benjamin Franklin Program - North Carolina State University
+
 ##### Teaching Experience
 
 Data Visualization Teaching Assistant at 2U Coding Boot Camp, University of North Carolina at Chapel Hill (2020)
@@ -42,11 +48,11 @@ Kuhn, Justin. (2019) Sonification as Activism: A Spatial Sonification of School 
 
 Brugarolas R, Yuschak S, Kuhn J, Adin D, Roberts DL, Sherman BL, Bozkurt A. (2018) Simultaneous Monitoring of Heart Rate and Respiratory Patterns During Scent Detection Tasks, IEEE Transactions of Biomedical Engineering.
 
-Yuschak S, Joyner J, Walker K, Brugarolas R, Kuhn J, Foster M, Majikes J, Ru H, Roberts D, Bozkurt A, Sherman B. Behavioral and physiological responses of anxious dogs to a simple behavior modification protocol while waiting in a veterinary hospital. Proceedings of the 2017 Veterinary Behavior Symposium, Indianapolis, IN, July 20, 2017, page 11.
-
 Sherman BL, Joyner J, Yuschak, S, Walker K, Kuhn J, Majikes J, Ru H, Mealin S, Brugarolas R, Roberts D, Bozkurt A. Responses of anxious dogs to a simple behavior modification protocol while waiting in a veterinary hospital. Proceedings of the 11th International Veterinary Behaviour Meeting, Samorin, Slovakia, September 14, 2017, pp 26-27.
 
 Fulp J, Sherman BL, Roberts DL, Bozkurt A, MacHaffie E, Kuhn J, Pappas T, Keller D, Cleghem Z, Yuschak S, Walker K. Crate Training Dogs Using a Computer Assisted Training System. Poster Presentation, Proceedings of the 18th Annual National Veterinary Scholars Symposium, National Institutes of Health (NIH), Bethesda, MD, August 3-5, 2017, p.138.
+
+Yuschak S, Joyner J, Walker K, Brugarolas R, Kuhn J, Foster M, Majikes J, Ru H, Roberts D, Bozkurt A, Sherman B. Behavioral and physiological responses of anxious dogs to a simple behavior modification protocol while waiting in a veterinary hospital. Proceedings of the 2017 Veterinary Behavior Symposium, Indianapolis, IN, July 20, 2017, page 11.
 
 ##### Artist Exhibitions
 
