@@ -1,6 +1,6 @@
 ---
 title: CV
-thumbnail: ''
+thumbnail: "/./signal-2021-09-24-170014.jpeg"
 year: "2018"
 categories:
 - CV
