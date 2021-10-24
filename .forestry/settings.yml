@@ -12,10 +12,10 @@ sections:
 - type: document
   path: src/data/theme.json
   label: Theme options
-upload_dir: static/uploads
+upload_dir: opt/build/repo/static/uploads
 public_path: https://distracted-hoover-2d12a1.netlify.app/uploads
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_output_directory: dist
