@@ -1,6 +1,6 @@
 ---
 title: Digital Education & Learning Technologies Applications (DELTA)
-thumbnail: "../static/uploads/25c51f70439237.5ba36d85ba934.jpg"
+thumbnail: "../static/uploads/2021-02-22-14-20-36.png"
 year: 2019-2021
 categories:
 - Front-End Development
