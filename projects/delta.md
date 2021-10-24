@@ -41,5 +41,3 @@ I designed and created a web-based molecule visualization/sonification based in 
 ## FOR 595 Fire Ecology
 
 I designed and created a website that functioned as an aggregator for different types of immersive media for a fire ecology course.![](/uploads/2021-10-24-16-56-26.png)![](/uploads/2021-10-24-16-57-36.png)
-
-## Miscellaneous Research and Development
