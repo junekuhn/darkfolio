@@ -6,8 +6,6 @@ categories:
 - CV
 
 ---
-## this is my cv
-
 ## Contact
 
 jkuhn001 \[at\] gold.ac.uk
@@ -26,7 +24,7 @@ Diversity Scholarship  - Audio Developer Conference 2021, London UK
 
 Benjamin Franklin Program - North Carolina State University
 
-#####  ## Teaching Experience
+##### ## Teaching Experience
 
 Data Visualization Teaching Assistant at 2U Coding Boot Camp, University of North Carolina at Chapel Hill (2020)
 
