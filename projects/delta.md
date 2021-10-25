@@ -18,7 +18,7 @@ As an Immersive Media Support Specialist at DELTA, I contributed media deliverab
 
 I did video editing, audio editing, and interaction design for a course on event-risk management.  My team recorded 360 video for a 5K run at different points in time and location to capture the event, warts and all.  We then ran the video by the instructor, who pointed out both correct and incorrect event safety protocols.
 
-[https://youtu.be/svUP0MqlBDE](https://youtu.be/svUP0MqlBDE "https://youtu.be/svUP0MqlBDE")
+<iframe width="1520" height="589" src="[https://www.youtube.com/embed/svUP0MqlBDE](https://www.youtube.com/embed/svUP0MqlBDE "https://www.youtube.com/embed/svUP0MqlBDE")" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 After the content was compiled, a my colleague Rhett and I authored a VR experience for students to traverse the event and hear the voiceover of the instructor to learn about event safety.
 
@@ -50,12 +50,20 @@ The project was made possible through the DELTA grant program at NC State Univer
 
 ## Fire Ecology (FOR 595)
 
-I designed and created a website that functioned as an aggregate for different types of immersive media for a fire ecology course.  
+I designed and created a website that functioned as an aggregate for different types of immersive media for a fire ecology course.
+
+![](/./map.jpg)
+
+The design constraints were tight.  We wanted a site that could be passed off to an external IT department at NC State's College of Natural Resources.  Our options for web design were either Wordpress or a static html site.  Since we wanted a lot of custom interaction, I pursued the static html approach.
+
+![](/./pinpage.jpg)
+
+Horizontal works best because it works well with our linear perception of time.
 
 ![](/uploads/2021-10-24-16-56-26.png)
 
-The design constraints were tight.  We wanted a site that could be passed off to an external IT department at NC State's College of Natural Resources.  Our options for web design were either Wordpress or a static html site.  Since we wanted a lot of custom interaci
-
-I used Mapbox for the interactive map elements, Greensock for animation, and 
+Instead of scrolling through year, it was clear that scrolling through each capture date was better because there could be either no captures in a year or more than one capture in a year.  The Greensock Timeline is still scrollable.
 
 ![](/uploads/2021-10-24-16-57-36.png)
+
+And if we chose date over year/season, the pin page that displays the different kinds of media can focus on only showing what media was captured at a specific date.  And, you can still navigate to different pins for a specific date.  Each link is loaded from a Google Sheet and can be updated by anyone.
