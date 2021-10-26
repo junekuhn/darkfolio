@@ -43,7 +43,7 @@ export default {
 }
 .project-title {
   flex: 0 0 40%;
-  font-size: 1rem;
+  font-size: 3rem;
   font-weight: 500;
   margin: 0;
 }
@@ -56,9 +56,19 @@ export default {
 .project-category {
   padding: 0;
   margin: 0;
+  font-size: 1.3rem;
 }
 .project-year {
   flex: 1;
   text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-title {
+    font-size: 1.2rem;
+  }
+  .project-category {
+    font-size: 0.7rem;
+  }
 }
 </style>

@@ -61,7 +61,7 @@ export default {
 }
 .social {
   .channel {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     &:last-of-type {

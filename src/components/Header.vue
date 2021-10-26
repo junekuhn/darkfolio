@@ -22,7 +22,7 @@
       </span>
     </g-link>
     <div class="contact">
-      <a class="link" :href="`mailto:${data.email}`">say hi !</a>
+      <a class="link" :href="`mailto:${data.email}`">email</a>
     </div>
   </header>
 </template>
@@ -65,7 +65,7 @@ export default {
   }
 }
 .name {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 500;
   user-select: none;
   margin: 0;
@@ -93,6 +93,11 @@ export default {
         opacity: 1;
       }
     }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .name {
+    font-size: 1rem;
   }
 }
 </style>

@@ -55,21 +55,29 @@ export default {
   margin-bottom: 8rem;
 }
 img {
-  width: 100% !important;
-  margin-bottom: 2rem;
+  width: 84% !important;
+  margin-left: 8%;
+  margin-right: 8%;
+  // margin-bottom: 2rem;
 }
 p {
   margin: 0;
 }
 .content-text {
   padding: 4rem 0 6rem 0;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   margin-left: 0;
   max-width: 780px;
   line-height: 1.5;
   @media (min-width: 920px) {
     margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content-text {
+    font-size: 1rem;
   }
 }
 </style>
