@@ -27,6 +27,5 @@ More Audiovisual sketches
 hicetnunc
 smart contracts
 vue development
-haskell programming
 
 

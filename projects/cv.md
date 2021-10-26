@@ -1,11 +1,11 @@
 ---
 title: CV
-thumbnail: "/./signal-2021-09-24-170014.jpeg"
+thumbnail: "../static/uploads/signal-2021-09-24-170014.jpeg"
 year: "2018"
 categories:
-- CV
-
+  - CV
 ---
+
 ## Contact
 
 jkuhn001 \[at\] gold.ac.uk
@@ -20,11 +20,11 @@ North Carolina State University - Arts Studies BA, Class of 2018
 
 ## Scholarships
 
-Diversity Scholarship  - Audio Developer Conference 2021, London UK
+Diversity Scholarship - Audio Developer Conference 2021, London UK
 
 Benjamin Franklin Program - North Carolina State University
 
-##### ## Teaching Experience
+## Teaching Experience
 
 Data Visualization Teaching Assistant at 2U Coding Boot Camp, University of North Carolina at Chapel Hill (2020)
 
@@ -59,5 +59,3 @@ Kuhn, Justin (2021) _Page Turner._ Backslash Lit \[Webzine\] ([https://backslash
 The Art of Tech VR Gallery (2020), [https://create-empathy.org/technology](https://create-empathy.org/technology "https://create-empathy.org/technology") (Group Exhibition)
 
 The Creative Coding Collective Group Exhibition (April 2018) Hunt Library Teaching and Visualization Lab, North Carolina State University
-
-![](/uploads/ebce4060883469.5aa7c8a544058.gif)

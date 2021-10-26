@@ -23,13 +23,13 @@ What choo does provide is view, routing, mounting, and other standard features o
 
 I then did my own photography and used photoshop to capture my saxophone for the webpage.
 
-![](/opt/build/repo/static/uploads/dsc00102.JPG)
+![](/uploads/dsc00102.JPG)
 
 Then I used atom to live code in hydra the background for the website.  There's been a few iterations, but ultimately I landed with a design that matched the color scheme and didn't distract too much from everything else.
 
-![](/./2021-10-24-17-48-41.png)
+![](/uploads/2021-10-24-17-48-41.png)
 
-![](/./2021-10-24-17-51-24.png)
+![](/uploads/2021-10-24-17-51-24.png)
 
 One of the trickier parts was getting the audio to play when I wanted to.  It's not quite like css where you can see the error. When the audio doesn't play when you want it to, there's a lot pulling teeth and scratching head.
 
