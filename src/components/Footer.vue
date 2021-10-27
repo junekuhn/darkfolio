@@ -67,6 +67,7 @@ export default {
     &:last-of-type {
       margin: 0;
     }
+    font-size: 1.5rem;
   }
 }
 </style>

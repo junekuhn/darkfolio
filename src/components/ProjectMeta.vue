@@ -43,14 +43,14 @@ export default {
 }
 .project-title {
   flex: 0 0 40%;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
   margin: 0;
 }
 .project-categories {
   flex: 1;
   padding: 0;
-  margin: 0;
+  margin: 0.2rem;
   list-style: none;
 }
 .project-category {
@@ -60,10 +60,11 @@ export default {
 }
 .project-year {
   flex: 1;
-  text-align: right;
+  text-align: center;
+  margin-right: 0.2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .project-title {
     font-size: 1.2rem;
   }

@@ -55,27 +55,24 @@ export default {
   margin-bottom: 8rem;
 }
 img {
-  width: 84% !important;
-  margin-left: 8%;
-  margin-right: 8%;
+  width: 94% !important;
+  margin-left: 3%;
+  margin-right: 3%;
   // margin-bottom: 2rem;
 }
 p {
   margin: 0;
 }
 .content-text {
-  padding: 4rem 0 6rem 0;
+  padding: 1rem 1rem 1rem 0;
   font-size: 1.3rem;
   font-weight: 400;
   margin-left: 0;
   max-width: 780px;
   line-height: 1.5;
-  @media (min-width: 920px) {
-    margin-left: 40%;
-  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .content-text {
     font-size: 1rem;
   }
