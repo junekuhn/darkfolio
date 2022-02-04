@@ -25,7 +25,7 @@
       <a class="link" :href="`mailto:${data.email}`">email</a>
     </div>
     <div class="contact">
-      <a class="link" href="./assets/static/static/uploads/CV.pdf">CV</a>
+      <a class="link" :href="`${data.CV}`">CV</a>
     </div>
   </header>
 </template>
