@@ -5,6 +5,11 @@
   "email": "justintkuhn@gmail.com",
   "social": [
     {
+      "channel": "/./cv.pdf",
+      "handle": "",
+      "link_text": "CV"
+    },
+    {
       "channel": "twitter",
       "handle": "justinkuhnmedia",
       "link_text": "tw"
