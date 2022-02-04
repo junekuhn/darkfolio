@@ -5,7 +5,7 @@
   "email": "justintkuhn@gmail.com",
   "social": [
     {
-      "channel": "/static/uploads/cv.pdf",
+      "channel": "./static/uploads/cv.pdf",
       "handle": "",
       "link_text": "CV"
     },
