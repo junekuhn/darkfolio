@@ -9,7 +9,7 @@ categories:
 - Front-End Development
 
 ---
-[View Completed Project](https://saxodr.one)
+## [View Completed Project](https://saxodr.one)
 
 In 2020, I created a solo project called Saxodrone.  The idea was to combine what I've seen with synths, guitars, and vocals do with live looping, and see what the saxophone could contribute to that space.
 
