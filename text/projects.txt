@@ -1,28 +1,26 @@
-Project Planning
+Project Planning - 9 projects max!
 
 What's happening now
 
 Kernel
 Computational Arts/blogging
-Rhombus
-3. Saxodrone Site/choo.io
-Mimu/touchdesigner
+2. Rhombus
+1. Saxodrone (website/rpi/glove/recordings/blog)
+
 
 What have I done already
 
-Justin Kuhn Media
-Saxodrone
-web3 basic site
-1. DELTA work
-Some audiovisual sketches
-360 short film
-blogging
-kepler concordia
+3. DELTA chemstry project
+5. 360 short film
+4. kepler concordia
 icad
+6. CFM module
+7. AAVP module 
+8. STPI module 
+9. CABRT module 
 
 What I want to do
 
-2. create a quick CV
 More Audiovisual sketches
 hicetnunc
 smart contracts
