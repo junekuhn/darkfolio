@@ -18,6 +18,7 @@ fields:
     use_select: false
 pages:
 - projects/delta.md
+- projects/permanent-music.md
 - projects/saxodrone.md
 - projects/the-rhombus.md
 - projects/wearable-mushroom-log.md
