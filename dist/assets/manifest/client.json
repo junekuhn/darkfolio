@@ -2,19 +2,19 @@
   "publicPath": "/",
   "all": [
     "assets/css/0.styles.0953f3df.css",
-    "assets/js/app.13169dab.js",
+    "assets/js/app.1eb6ab4d.js",
     "assets/js/page--node-modules--gridsome--app--pages--404-vue.66acc8fc.js",
-    "assets/js/page--src--pages--index-vue.ee845126.js",
-    "assets/js/page--src--templates--project-vue.04e535f4.js"
+    "assets/js/page--src--pages--index-vue.0d819e67.js",
+    "assets/js/page--src--templates--project-vue.235bd80d.js"
   ],
   "initial": [
     "assets/css/0.styles.0953f3df.css",
-    "assets/js/app.13169dab.js"
+    "assets/js/app.1eb6ab4d.js"
   ],
   "async": [
     "assets/js/page--node-modules--gridsome--app--pages--404-vue.66acc8fc.js",
-    "assets/js/page--src--pages--index-vue.ee845126.js",
-    "assets/js/page--src--templates--project-vue.04e535f4.js"
+    "assets/js/page--src--pages--index-vue.0d819e67.js",
+    "assets/js/page--src--templates--project-vue.235bd80d.js"
   ],
   "modules": {
     "42204709": [
