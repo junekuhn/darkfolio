@@ -1,6 +1,6 @@
 ---
 title: Wearable Mushroom Log
-thumbnail: "/./blenderrender.png"
+thumbnail: "../static/uploads/mushroomlog.png"
 year: "2022"
 categories:
 - generative art
