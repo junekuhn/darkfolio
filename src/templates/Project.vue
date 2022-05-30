@@ -71,7 +71,7 @@ img{
 //   // margin-bottom: 2rem;
 // }
 p {
-  margin: 0;
+  margin: 1rem;
 }
 
 h2 {
@@ -81,7 +81,7 @@ h2 {
 time {
   font-size:1.3rem;
 }
-.content-text {
+.content-text, a {
   padding: 1rem 1rem 1rem 0;
   font-size: 1.3rem;
   font-weight: 400;
