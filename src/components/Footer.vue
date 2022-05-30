@@ -69,5 +69,7 @@ export default {
     }
     font-size: 1.5rem;
   }
+  background-color: #700070;
+  padding: 2rem;
 }
 </style>
