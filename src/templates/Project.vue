@@ -95,6 +95,10 @@ iframe {
   margin: 0 auto;
 }
 
+article.project-post {
+  padding-bottom: 9rem;
+}
+
 @media only screen and (max-width: 1000px) {
   .content-text {
     font-size: 1rem;
