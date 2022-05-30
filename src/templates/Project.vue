@@ -54,27 +54,64 @@ export default {
   padding: 0 2rem;
   margin-bottom: 8rem;
 }
-img {
-  width: 94% !important;
-  margin-left: 3%;
-  margin-right: 3%;
-  // margin-bottom: 2rem;
+
+.project-title {
+  text-align: left;
 }
+
+img{
+  margin: auto;
+  display:block;
+  width:100%;
+}
+// img {
+//   width: 94%;
+//   margin-left: 3%;
+//   margin-right: 3%;
+//   // margin-bottom: 2rem;
+// }
 p {
   margin: 0;
+}
+
+h2 {
+  text-align:center;
+}
+
+time {
+  font-size:1.3rem;
 }
 .content-text {
   padding: 1rem 1rem 1rem 0;
   font-size: 1.3rem;
   font-weight: 400;
-  margin-left: 0;
+  margin:auto;
   max-width: 780px;
   line-height: 1.5;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1000px) {
   .content-text {
     font-size: 1rem;
+  }
+}
+
+//desktop images
+@media only screen and (min-width: 800px) {
+  div.content img {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+
+  article.project-post {
+    width:75%;
+    margin: auto;
   }
 }
 </style>

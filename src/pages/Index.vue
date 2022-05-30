@@ -85,6 +85,7 @@ export default {
   width: 100%;
 }
 
+//for mobile
 @media only screen and (max-width:1000px) {
   .project {
   width: 100%;
@@ -96,6 +97,13 @@ export default {
   display: block;
   width: 100%;
 }
+}
+
+//for desktop
+@media only screen and (min-width:1000px) {
+    article.project {
+      padding: 2rem;
+    }
 }
 
 

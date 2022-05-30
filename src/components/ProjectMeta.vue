@@ -60,7 +60,7 @@ export default {
 }
 .project-year {
   flex: 1;
-  text-align: center;
+  text-align: left;
   margin-right: 0.2rem;
 }
 

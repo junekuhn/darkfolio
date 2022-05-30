@@ -13,7 +13,18 @@ module.exports = {
       options: {
         typeName: 'Project',
         path: 'projects/**/*.md',
-        route: '/:slug'
+        route: '/:slug',
+        remark: {
+          plugins: [
+            [ '@noxify/gridsome-plugin-remark-embed', {
+                'enabledProviders' : ['Youtube', 'Vimeo', 'Soundcloud'],
+                'Vimeo' : {
+                  responsive: true,
+                  width: '800px'
+                }
+            }]
+          ]
+        }
       }
     }
   ],
