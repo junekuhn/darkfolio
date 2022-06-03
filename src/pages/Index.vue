@@ -1,5 +1,10 @@
 <template>
   <Layout>
+    <section class="bio">
+      <p id="summary">
+        I'm a developer and artist working with audiovisual, <br>immersive, and community-oriented technology.
+      </p>
+    </section>
     <section class="projects">
       <article
         @click="goTo($event, project.node.path)"
@@ -75,7 +80,7 @@ export default {
 }
 
 .project {
-  width: 50%;
+  width: 33%;
   margin-bottom: 4rem;
   cursor: pointer;
   display: inline-block;
@@ -83,6 +88,16 @@ export default {
 .project-thumbnail {
   display: block;
   width: 100%;
+}
+
+.bio {
+  display: block;
+}
+
+#summary {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 2rem;
 }
 
 //for mobile
@@ -103,6 +118,10 @@ export default {
 @media only screen and (min-width:1000px) {
     article.project {
       padding: 2rem;
+    }
+
+    #summary {
+      font-size: 1.5rem;
     }
 }
 

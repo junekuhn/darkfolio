@@ -22,6 +22,11 @@
       </span>
     </g-link>
     <div class="contact">
+      <g-link to="/about/">
+          About
+      </g-link>
+    </div>   
+    <div class="contact">
       <a class="link" :href="`mailto:${data.email}`">email</a>
     </div>
     <div class="contact">
@@ -54,9 +59,9 @@ export default {
 <style lang="scss" scoped>
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-end;
-  padding: 4rem 2rem 5rem 2rem;
+  padding: 4rem 2rem 2rem 3rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   z-index: 100;
@@ -67,6 +72,11 @@ export default {
     opacity: 0;
   }
 }
+
+.contact {
+  padding-left:5rem;
+}
+
 .name {
   font-size: 2rem;
   font-weight: 500;
@@ -77,12 +87,14 @@ export default {
     margin-right: 0.5rem;
     &.first-line {
       display: block;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0rem;
     }
     &:last-of-type {
       margin: 0;
     }
   }
+
+
   &.first {
     .letter {
       transition: opacity 0.15s ease;
@@ -98,9 +110,23 @@ export default {
     }
   }
 }
+
+// for mobile
 @media only screen and (max-width: 1000px) {
   .name {
-    font-size: 1rem;
+    font-size: 2rem;
   }
+
+  .header {
+    padding: 2rem;
+    display: block;
+  }
+
+  .contact {
+    padding: 1rem 0rem 0rem 0rem ;
+  }
+
+  
+
 }
 </style>
