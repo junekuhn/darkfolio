@@ -3,7 +3,7 @@
   "header_title": "Justin Kuhn Media",
   "first_letter_only": false,
   "email": "justintkuhn@gmail.com",
-  "CV": "uploads/Justin_Kuhn_CV.pdf",
+  "CV": "../uploads/Justin_Kuhn_CV.pdf",
   "social": [
     {
       "channel": "twitter",
