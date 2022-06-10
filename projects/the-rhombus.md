@@ -7,10 +7,20 @@ categories:
 - typescript
 - web3
 - live streaming
+- collaborative
 
 ---
 
 The Rhombus is a collective focused on creating monetized live-streaming events and interactive experiences through a virtual 3D venue.  The venue is hosted on Decentraland, a web3-enabled platform with its own ecosystem of virtual land, avatars, and live events.
+
+## Contributions
+
+Decentraland SDK Development (TypeScript) <br>
+Live Streaming Tech <br>
+Event Promotion <br>
+Web Development <br>
+Business Development <br>
+Social Media
 
 ## Mission
 

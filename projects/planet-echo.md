@@ -6,12 +6,19 @@ categories:
 - Sonification
 - Spatial Audio
 - SuperCollider
+- Collaborative
 
 ---
 
 I built a chain of effects in Supercollider during my residency for Kepler Concordia Launchpad, and the performance took place at Harmony House in Lake Oswego, Oregon.  Played on a 4.1 Quadraphonic array, you can hear the planets travel around the listener and the echos are timed relative to their distance from the sun.  Planet-to-planet proximity is sonified through real-time filtering effects.  Recorded on a Zoom H2N, the spatial positions have been maintained from the performance using ambisonics.
 
 [https://www.youtube.com/watch?v=PGbsSa2w8ro](https://www.youtube.com/watch?v=PGbsSa2w8ro)
+
+## Contributions
+
+Audio Development in SuperCollider <br>
+Data Pre-Processing in Python <br>
+Event Coordination 
 
 ## Residency Blog Posts
 
