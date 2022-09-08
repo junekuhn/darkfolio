@@ -1,6 +1,6 @@
 ---
 title: Mercedonius
-thumbnail: "/assets/static/dsc05139.JPG"
+thumbnail: "/uploads/dsc05139.JPG"
 year: "2022"
 categories:
 - physical computing
@@ -20,8 +20,8 @@ I used this Max object suite ([https://github.com/worldmaking/Max_Worldmaking_Pa
 
 Inside Max, I had direct access to position and orientation data (pictured below).
 
-![](/assets/static/cover.jpg)
+![](/uploads/cover.jpg)
 
-![](/assets/static/floorplan.jpg)
+![](/uploads/floorplan.jpg)
 
-![](/assets/static/dsc05123.JPG)
+![](/uploads/dsc05123.JPG)
