@@ -8,3 +8,4 @@ arch -x86_64 zsh
 nvm uninstall 12 && nvm install 12
 rm -rf node_modules && npm install
 
+grid
