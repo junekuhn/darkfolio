@@ -1,6 +1,6 @@
 ---
 title: Mercedonius
-thumbnail: "../static/uploads/dsc05139.jpg"
+thumbnail: '../static/uploads/dsc05139.JPG'
 year: "2022"
 categories:
 - physical computing
