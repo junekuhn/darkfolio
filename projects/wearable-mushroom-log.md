@@ -3,10 +3,10 @@ title: Wearable Mushroom Log
 thumbnail: "../static/uploads/mushroomlog.png"
 year: "2022"
 categories:
-- CNC Embroidery
-- Generative Art
-- 3D Printing
 - Three.js
+- Generative Art
+- CNC Embroidery
+- 3D Printing
 - Blender
 
 ---
