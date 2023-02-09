@@ -4,16 +4,12 @@
             <g-image
             class="thumnail"
             src="~/../static/uploads/about.jpg"
-            alt="hi"
+            alt="performer with saxophone and glove controller"
             />
         </div>
         <section id="about-paragraph">
             <p>
-            I'm a developer and artist currently
-            completing a MA in Computational Arts at Goldsmiths, University of London. 
-            I'm exploring audiovisual live coding, sonification, and computational
-            governance through smart contracts. I also have professional experience with website
-            design, virtual reality, sound design, and teaching.
+            Justin is a transdisciplinary artist who uses live code, web development, and saxophone to make interactive, audiovisual experiences. They have recently completed an MA in Computational Arts at Goldsmiths, University of London. Since 2018, Justin exhibits work as an artist, freelances custom websites, and performs as a musician and VJ.
             </p>
         </section>
 
