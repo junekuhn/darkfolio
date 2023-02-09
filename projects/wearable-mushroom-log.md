@@ -3,13 +3,13 @@ title: Wearable Mushroom Log
 thumbnail: "../static/uploads/mushroomlog.png"
 year: "2022"
 categories:
-- generative art
-- fabrication
-- threejs
-- blender
+- CNC Embroidery
+- Generative Art
+- 3D Printing
+- Three.js
+- Blender
 
 ---
-
 The mushroom log materializes the way that artifacts in video games are created,
 through 3D models and UV maps. This project combines the processes of 3D printing
 and CNC embroidery to create a colorful, textured artifact that resembles a 3D model.
