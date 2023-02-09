@@ -4,8 +4,8 @@ thumbnail: "../static/uploads/justinkuhn-40.jpg"
 year: "2021"
 categories:
 - Web Design
-- Hydra Live-Coding
-- Front-End Development
+- Hydra Live Coding
+- Front-End Web Development
 
 ---
 ## [View Completed Project](https://saxodr.one)
