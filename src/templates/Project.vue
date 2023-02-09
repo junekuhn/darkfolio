@@ -70,7 +70,7 @@ img{
 //   margin-right: 3%;
 //   // margin-bottom: 2rem;
 // }
-p {
+p, li {
   margin: 1rem;
 }
 
@@ -81,7 +81,8 @@ h2 {
 time {
   font-size:1.3rem;
 }
-.content-text, a {
+.content-text,p>a, li {
+  display:block;
   padding: 1rem 1rem 1rem 0;
   font-size: 1.3rem;
   font-weight: 400;
@@ -96,7 +97,7 @@ iframe {
 }
 
 article.project-post {
-  padding-bottom: 9rem;
+  padding-bottom: 15rem;
 }
 
 @media only screen and (max-width: 1000px) {
