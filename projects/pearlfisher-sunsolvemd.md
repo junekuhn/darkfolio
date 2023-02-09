@@ -1,6 +1,6 @@
 ---
 title: Pearlfisher - SunsolveMD
-thumbnail: assets/static/sunsolve.png
+thumbnail: '../static/uploads/sunsolve.png'
 year: "2022"
 categories:
 - Sanity CMS
