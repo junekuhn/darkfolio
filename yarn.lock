@@ -10344,6 +10344,11 @@
     "commander" "^2.20.0"
     "source-map-support" "~0.5.20"
 
+"three@^0.149.0":
+  "integrity" "sha512-tohpUxPDht0qExRLDTM8sjRLc5d9STURNrdnK3w9A+V4pxaTBfKWWT/IqtiLfg23Vfc3Z+ImNfvRw1/0CtxrkQ=="
+  "resolved" "https://registry.npmjs.org/three/-/three-0.149.0.tgz"
+  "version" "0.149.0"
+
 "through@^2.3.8":
   "integrity" "sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU="
   "resolved" "https://registry.npmjs.org/through/-/through-2.3.8.tgz"

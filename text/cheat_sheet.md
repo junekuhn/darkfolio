@@ -1,6 +1,7 @@
 project.vue - css/js for individual project pages
 projectmeta.vue - css/html for the title, date, and tags section
 index.vue - the homepage
+about.vue - about page
 
 
 dealing with sharp/architechure issues
