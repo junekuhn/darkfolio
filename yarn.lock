@@ -5087,6 +5087,11 @@
     "webpack-merge" "^4.2.1"
     "yaml-loader" "^0.5.0"
 
+"gsap@^3.11.4":
+  "integrity" "sha512-McHhEguHyExMMnjqKA8G+7TvxmlKQGMbjgwAilnFe1e4id7V/tFveRQ2YMZhTYu0oxHGWvbPltdVYQOu3z1SCA=="
+  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.11.4.tgz"
+  "version" "3.11.4"
+
 "handlebars@^4.7.6":
   "integrity" "sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA=="
   "resolved" "https://registry.npmjs.org/handlebars/-/handlebars-4.7.7.tgz"
@@ -10517,6 +10522,11 @@
   "version" "0.6.0"
   dependencies:
     "safe-buffer" "^5.0.1"
+
+"tween.js@^16.6.0":
+  "integrity" "sha512-IIhm0VsiBxNJO+WsXUvjcq+u3sKfOwSu67Yh9T5xSpXb2eHHi9+uZDDGBc7uMXjfud0bYiLkYCEb7JXIGXi5KA=="
+  "resolved" "https://registry.npmjs.org/tween.js/-/tween.js-16.6.0.tgz"
+  "version" "16.6.0"
 
 "tweetnacl@^0.14.3", "tweetnacl@~0.14.0":
   "integrity" "sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q="

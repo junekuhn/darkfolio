@@ -10,4 +10,6 @@ nvm uninstall 12 && nvm install 12
 rm -rf node_modules && npm install
 
 fixed it by updating packages DO NOT UPDATE VUE OR SASS
+nvm use 16
+
 
