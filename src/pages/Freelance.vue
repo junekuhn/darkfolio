@@ -1,5 +1,6 @@
 <script> 
-    import Logo from "../components/Logo.vue";
+    import LogoSVG from "../components/LogoSVG.vue";
+    import MiniMenu from "../components/MiniMenu.vue";
     import coords from "../data/coords.json";
     import gsap from 'gsap'
     import {
@@ -58,7 +59,8 @@
             }
         },
         components: {
-            Logo
+            LogoSVG,
+            MiniMenu,
         },
         mounted() {
 
@@ -73,6 +75,7 @@
             );
             // Converts 3D to 2D via calculations
             const renderer = new CSS3DRenderer();
+            let body = document.querySelector('body');
             renderer.setSize( window.innerWidth, window.innerHeight );
             document.getElementById( 'three-container' ).appendChild( renderer.domElement );
 
@@ -132,12 +135,15 @@
 </script>
 
 <template>
-    <Layout>
+    <!-- <Layout> -->
+        <div>
+            <!-- menu bar -->
+            <MiniMenu/>
         <div id="three-container">
         </div>
         <div id="d-container">
             <div id="first-side">
-                <Logo id="first-side" fill="#ffffff"/>
+                <LogoSVG id="first-side" fill="#ffffff"/>
             </div>
             <div id="2nd-side"> 
                 I’m a freelance <br>creative technologist<br>
@@ -154,10 +160,20 @@
             </div>
             <div id="sixth-side"></div>
         </div>
-    </Layout>
+    </div>
+    <!-- </Layout> -->
 </template>
 
 <style>
+
+#three-container {
+    z-index: 10;
+    position: absolute;
+}
+
+#d-container {
+    position: relative;
+}
 
 .panel {
     width: 200px;
