@@ -1,7 +1,7 @@
 <script> 
-    import LogoSVG from "../components/LogoSVG.vue";
-    import MiniMenu from "../components/MiniMenu.vue";
-    import coords from "../data/coords.json";
+    import LogoSVG from "@/components/svg/LogoSVG.vue";
+    import MiniMenu from "@/components/MiniMenu.vue";
+    import coords from "@/data/coords.json";
     import gsap from 'gsap'
     import {
         PlaneGeometry,
@@ -14,6 +14,7 @@
     } from "three";
     import { CSS3DObject, CSS3DRenderer } from "three/examples/jsm/renderers/CSS3DRenderer"
     import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js"
+    import Footer from "@/components/Footer.vue";
 
     const cube = new Group();
 
@@ -61,6 +62,7 @@
         components: {
             LogoSVG,
             MiniMenu,
+            Footer,
         },
         mounted() {
 
@@ -160,6 +162,7 @@
             </div>
             <div id="sixth-side"></div>
         </div>
+        <Footer />
     </div>
     <!-- </Layout> -->
 </template>

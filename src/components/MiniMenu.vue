@@ -1,19 +1,24 @@
 <script>
-    import AudioSVG from './AudioSVG.vue';
-    import AudioOffSVG from './AudioOffSVG.vue'
-    import MenuSVG from './MenuSVG.vue';
+    import AudioSVG from './svg/AudioSVG.vue';
+    import AudioOffSVG from './svg/AudioOffSVG.vue'
+    import MenuSVG from './svg/MenuSVG.vue';
+    import CloseSVG from './svg/CloseSVG.vue';
+    import Dropdown from './Dropdown.vue';
 
     export default {
         data() {
             return {
                 three: true,
                 audio: false,
+                menuOpen: false,
             }
         },
         components: {
             AudioSVG,
+            CloseSVG,
             MenuSVG,
             AudioOffSVG,
+            Dropdown,
         },
         methods: {
             toggleAudio: function() {
@@ -40,7 +45,17 @@
                     this.three = true;
                 }
                 //toggle 2d/3d 
+            },
+            toggleHamburger: function() {
+                if(this.menuOpen) {
+                    this.$refs.dropdown.toggleFade();
+                    this.menuOpen = false;
+                } else {
+                    this.$refs.dropdown.toggleFade();
+                    this.menuOpen = true;
+                }
             }
+
         }
     }
 </script>
@@ -53,7 +68,11 @@
             </div>
             <div class="menu-left" id="render-toggle" @click="toggleRender">2D</div>
             <div id="flex-spacer"></div>
-            <MenuSVG class="menu-svg" fill="black"/>
+            <div class="menu-svg" @click="toggleHamburger">
+                <CloseSVG v-show="this.menuOpen" fill="black"/>
+                <MenuSVG v-show="!this.menuOpen" fill="black"/>
+            </div>
+            <Dropdown ref="dropdown"/>
         </div>
 </template>
 
@@ -81,12 +100,10 @@ svg {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
-    position: absolute;
+    position: sticky;
+    text-align:center;
 }
  .menu-left {
-    margin-left: 5px;
-    margin-right: 5px;
     height: 30px;
     width: 30px;
     flex-grow: 1;
