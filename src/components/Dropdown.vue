@@ -42,12 +42,12 @@ export default {
 #dropdown {
     width: 250px;
     height: auto;
-    background-color: brown;
+    background-color: rgba(0,0,0,0);
     position: absolute;
     z-index: 30;
     top: 60px;
     right: 0px;
-    padding: 20px 30px 20px 0px;
+    padding: 10px 30px 20px 0px;
 }
 
 .dropdown-item {
@@ -62,5 +62,13 @@ export default {
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+
+@media screen, (min-width: 750px) {
+    #dropdown {
+        padding: 10px 60px 20px 0px; 
+        width: 400px;
+    }
+    
 }
 </style>

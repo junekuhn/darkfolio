@@ -2,8 +2,22 @@ filter by tags
 
 freelance page
 - 3d/2d toggle
-- 6 planes with HTML 
+- desktop menu
 - 
+
+design what the 2D version is going to look like
+- greensock experiments, animating the 3D scene in the background
+
+
+z-index stack (low to high)
+
+three.js scene
+2d scene
+menu
+
+
+
+
 
 
 animation

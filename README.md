@@ -24,6 +24,7 @@ cd darkfolio
 npm install
 
 # Start local dev server
+nvm use 16
 gridsome develop
 ```
 

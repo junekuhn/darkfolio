@@ -11,6 +11,7 @@
                 three: true,
                 audio: false,
                 menuOpen: false,
+                show:true,
             }
         },
         components: {
@@ -45,6 +46,7 @@
                     this.three = true;
                 }
                 //toggle 2d/3d 
+                this.$emit('toggleRender')
             },
             toggleHamburger: function() {
                 if(this.menuOpen) {
@@ -63,14 +65,14 @@
 <template>
         <div id="mini-menu">
             <div class="menu-left" @click="toggleAudio">
-                <AudioSVG v-show="this.audio" fill="black" />
-                <AudioOffSVG v-show="!this.audio" fill="black" />
+                <AudioSVG v-show="this.audio" fill="white" />
+                <AudioOffSVG v-show="!this.audio" fill="white" />
             </div>
             <div class="menu-left" id="render-toggle" @click="toggleRender">2D</div>
             <div id="flex-spacer"></div>
             <div class="menu-svg" @click="toggleHamburger">
-                <CloseSVG v-show="this.menuOpen" fill="black"/>
-                <MenuSVG v-show="!this.menuOpen" fill="black"/>
+                <CloseSVG v-show="this.menuOpen" fill="white"/>
+                <MenuSVG v-show="!this.menuOpen" fill="white"/>
             </div>
             <Dropdown ref="dropdown"/>
         </div>
@@ -84,6 +86,8 @@
     margin-right: 10px;
     margin: auto;
     flex-grow: 1;
+    max-width: 150px;
+    cursor: pointer;
 }
 
 svg {
@@ -92,7 +96,7 @@ svg {
 }
 #mini-menu {
     z-index: 20;
-    background-color: white;
+    background-color: rgba(0,0,0,0);
     height: 60px;
     width: 100vw;
     top: 0px;
@@ -106,15 +110,17 @@ svg {
  .menu-left {
     height: 30px;
     width: 30px;
-    flex-grow: 1;
+    flex-grow: 0.5;
+    max-width: 100px;
+    cursor: pointer;
  }
 
  #render-toggle {
-    color: black;
+    color: white;
     font-size: 30px;
     height: 35px;
     width: 35px;
-    flex-grow: 1;
+    flex-grow: 0.5;
  }
 
  #flex-spacer {

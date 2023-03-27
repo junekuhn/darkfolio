@@ -21,11 +21,12 @@
     export default {
         data() {
             return {
-                animation: 0
+                animation: 0,
+                show:true,
             }
         },
         methods: {
-            increment() {
+            increment: function() {
                 this.animation++;
                 console.log(this.animation)
 
@@ -55,8 +56,11 @@
 
                 if(this.animation == 6) this.reset();
             },
-            reset() {
+            reset: function() {
                 this.animation = 0;
+            },
+            toggleFade: function() {
+                this.show = !this.show;
             }
         },
         components: {
@@ -140,28 +144,30 @@
     <!-- <Layout> -->
         <div>
             <!-- menu bar -->
-            <MiniMenu/>
+            <MiniMenu @toggleRender="toggleFade" />
         <div id="three-container">
         </div>
-        <div id="d-container">
-            <div id="first-side">
-                <LogoSVG id="first-side" fill="#ffffff"/>
+        <transition name="fade">
+            <div id="d-container" v-if="show">
+                <div id="first-side">
+                    <LogoSVG id="first-side" fill="#ffffff"/>
+                </div>
+                <div id="2nd-side"> 
+                    I’m a freelance <br>creative technologist<br>
+                    working with<br> 3D, audio, and XR
+                </div>
+                <div id="3rd-side">
+                    Delivering <br>websites,<br> landing pages,<br>video, and<br>sound design
+                </div>
+                <div id="4th-side">
+                    Based in <br>London, UK 
+                </div>
+                <div id="5th-side">
+                    Book a <br>consultation<br>here
+                </div>
+                <div id="sixth-side"></div>
             </div>
-            <div id="2nd-side"> 
-                I’m a freelance <br>creative technologist<br>
-                 working with<br> 3D, audio, and XR
-            </div>
-            <div id="3rd-side">
-                Delivering <br>websites,<br> landing pages,<br>video, and<br>sound design
-            </div>
-            <div id="4th-side">
-                Based in <br>London, UK 
-            </div>
-            <div id="5th-side">
-                Book a <br>consultation<br>here
-            </div>
-            <div id="sixth-side"></div>
-        </div>
+        </transition>
         <Footer />
     </div>
     <!-- </Layout> -->
@@ -170,7 +176,7 @@
 <style>
 
 #three-container {
-    z-index: 10;
+    z-index: -10;
     position: absolute;
 }
 
@@ -213,4 +219,10 @@
     bottom:-40px;
 }
 
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>
