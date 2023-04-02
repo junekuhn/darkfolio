@@ -96,7 +96,7 @@ svg {
 }
 #mini-menu {
     z-index: 20;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,1);
     height: 60px;
     width: 100vw;
     top: 0px;

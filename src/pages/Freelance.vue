@@ -150,7 +150,7 @@
         <transition name="fade">
             <div id="d-container" v-if="show">
                 <div id="first-side">
-                    <LogoSVG id="first-side" fill="#ffffff"/>
+                        <LogoSVG id="first-side" fill="#ffffff"/>
                 </div>
                 <div id="2nd-side"> 
                     I’m a freelance <br>creative technologist<br>
@@ -182,6 +182,35 @@
 
 #d-container {
     position: relative;
+    display: grid;
+    grid-template-rows: repeat(6, [row-start] 33% [row-end]);
+    padding: 10px;
+}
+
+#d-container > div {
+    background-color: rgba(0,0,0, 0.4);
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    font-size: 30px;
+
+    box-shadow: 0px 0px 12px rgba(255,0,255,0.75);
+    backdrop-filter: blur(10px);
+}
+
+#svg-container {
+    width: 100%;
+    margin: auto;
+    display: block
+}
+
+#first-side svg {
+    width: 250px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:center;
+    display: block;
 }
 
 .panel {
@@ -224,5 +253,17 @@
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+
+@media  (min-width: 750px) {
+    #d-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "header header header"
+            "main main sidebar"
+            "footer footer footer";
+        height: 100%;
+    }
 }
 </style>

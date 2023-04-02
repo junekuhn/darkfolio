@@ -8,8 +8,6 @@ export default  {
 
 <template>
             <svg
-                width="91.818054mm"
-                height="83.725632mm"
                 viewBox="0 0 91.818054 83.725632"
                 version="1.1"
                 id="svg5"

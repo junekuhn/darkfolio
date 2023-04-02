@@ -1,9 +1,10 @@
 filter by tags
 
 freelance page
-- 3d/2d toggle
-- desktop menu
-- 
+- design 2D version
+- implenebt 2D version
+- audio functionality
+- sound design
 
 design what the 2D version is going to look like
 - greensock experiments, animating the 3D scene in the background

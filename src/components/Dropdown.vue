@@ -40,9 +40,9 @@ export default {
 
 <style scoped>
 #dropdown {
-    width: 250px;
+    width: 150px;
     height: auto;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,1);
     position: absolute;
     z-index: 30;
     top: 60px;
@@ -67,7 +67,7 @@ export default {
 @media screen, (min-width: 750px) {
     #dropdown {
         padding: 10px 60px 20px 0px; 
-        width: 400px;
+        width: 300px;
     }
     
 }
