@@ -100,6 +100,14 @@ export default {
   padding: 2rem;
 }
 
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
 //for mobile
 @media only screen and (max-width:1000px) {
   .project {

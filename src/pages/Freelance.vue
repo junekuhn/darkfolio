@@ -113,7 +113,7 @@
                 details.className = 'details';
                 details.innerHTML = panel.innerHTML;
                 panel3d[i].appendChild(details);
-                panel3d[i].addEventListener('pointerdown', this.increment)
+                panel3d[i].addEventListener('pointerup', this.increment)
 
                 const objectCSS = new CSS3DObject( panel3d[i] );
                 let scaler = 100;
@@ -208,6 +208,7 @@
     margin: 10px;
     height: auto;
     font-size: 25px;
+    font-family: 'Optima';
     line-height: 35px;
     text-align:center;
     vertical-align: middle;
@@ -291,7 +292,6 @@ a:visited {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         height: 100%;
-
     } 
 }
 

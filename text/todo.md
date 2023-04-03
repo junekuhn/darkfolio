@@ -1,35 +1,18 @@
 filter by tags
 
-freelance page
-- design 2D version
-- implenebt 2D version
-- audio functionality
-- sound design
+strudel functionality
+- sound button is stop and start
+- all devices
+    - 3d animation toggle through
+    - 3d animation vs 2d animation tracks
+    - 2d is a static track, always the same
 
-design what the 2D version is going to look like
-- greensock experiments, animating the 3D scene in the background
+- use stackblitz for prototype
+- see if I can hold the load until later
 
+if link clicked, no animation
 
-z-index stack (low to high)
-
-three.js scene
-2d scene
-menu
+https://stackblitz.com/edit/react-mwldei?file=src%2FApp.js
 
 
-
-
-
-
-animation
-- 6 states
-- state is incremented on click
-- Tween goes from previous state to current state
-
-sound
-
-2D version hiding/showing
-2D CSS
-
-Colors, effects
 

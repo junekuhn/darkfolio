@@ -64,10 +64,10 @@
 
 <template>
         <div id="mini-menu">
-            <div class="menu-left" @click="toggleAudio">
+            <!-- <div class="menu-left" @click="toggleAudio">
                 <AudioSVG v-show="this.audio" fill="white" />
                 <AudioOffSVG v-show="!this.audio" fill="white" />
-            </div>
+            </div> -->
             <div class="menu-left" id="render-toggle" @click="toggleRender">3D</div>
             <div id="flex-spacer"></div>
             <div class="menu-svg" @click="toggleHamburger">
