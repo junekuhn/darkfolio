@@ -39,10 +39,10 @@
                 //get render status
                 console.log(this.three);
                 if(this.three) {
-                    document.querySelector("#render-toggle").innerHTML = "3D";
+                    document.querySelector("#render-toggle").innerHTML = "2D";
                     this.three = false;
                 } else {
-                    document.querySelector("#render-toggle").innerHTML = "2D";
+                    document.querySelector("#render-toggle").innerHTML = "3D";
                     this.three = true;
                 }
                 //toggle 2d/3d 
@@ -68,7 +68,7 @@
                 <AudioSVG v-show="this.audio" fill="white" />
                 <AudioOffSVG v-show="!this.audio" fill="white" />
             </div>
-            <div class="menu-left" id="render-toggle" @click="toggleRender">2D</div>
+            <div class="menu-left" id="render-toggle" @click="toggleRender">3D</div>
             <div id="flex-spacer"></div>
             <div class="menu-svg" @click="toggleHamburger">
                 <CloseSVG v-show="this.menuOpen" fill="white"/>

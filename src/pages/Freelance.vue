@@ -46,7 +46,7 @@
                         rotations = {duration: 1, y: 1.57, x:0};
                         break;
                     case 3: 
-                        rotations = {duration: 2, x: 0, y: -1.57};
+                        rotations = {duration: 1, x: 0, y: -1.57};
                         break;
                     case 4:
                         rotations = {duration: 1, x: 0, y: -3.14}
@@ -125,7 +125,7 @@
 
             scene.add(cube);
 
-            const controls = new OrbitControls( camera, renderer.domElement );
+            // const controls = new OrbitControls( camera, renderer.domElement );
             // controls.movementSpeed = 50;
             // controls.lookSpeed = 0.05;
 
@@ -138,7 +138,7 @@
 				// cube.rotation.y += 0.01;
 
 				renderer.render( scene, camera );
-                controls.update( clock.getDelta() );
+                // controls.update( clock.getDelta() );
 			};
 
 			animate();
@@ -208,11 +208,17 @@
     margin: 10px;
     height: auto;
     font-size: 25px;
+    line-height: 35px;
     text-align:center;
     vertical-align: middle;
 
     box-shadow: 0px 0px 12px rgba(255,0,255,0.75);
     backdrop-filter: blur(10px);
+}
+
+#d-container div:hover {
+    box-shadow: 0px 0px 12px rgba(255,0,255,0.75);
+    border: 1px solid rgba(255,100,255,0.75);
 }
 
 #svg-container {
@@ -280,7 +286,16 @@ a:visited {
     color: rgb(255, 200, 255);
 }
 
-@media  (min-width: 750px) {
+@media (min-width: 700px) {
+    #d-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 100%;
+
+    } 
+}
+
+@media  (min-width: 1100px) {
     #d-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -289,12 +304,14 @@ a:visited {
             "main main sidebar"
             "footer footer footer";
         height: 100%;
+
     }
 
     #d-container > div {
         font-size: 30px;
         text-align: left;
         padding: 30px;
+        margin: 15px;
     }
 }
 </style>
