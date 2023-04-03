@@ -101,11 +101,11 @@ export default {
 }
 
 a:link {
-  color: white;
+  color: white !important;
 }
 
 a:visited {
-  color: white;
+  color: white !important;
 }
 
 //for mobile

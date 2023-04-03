@@ -187,7 +187,7 @@
     <!-- </Layout> -->
 </template>
 
-<style>
+<style lang="scss" >
 
 #three-container {
     z-index: -10;
@@ -280,11 +280,11 @@
   opacity: 0;
 }
 
-a:link {
+#d-container a:link {
     color: rgb(255, 100, 255);
 }
 
-a:visited {
+#d-container a:visited {
     color: rgb(255, 200, 255);
 }
 

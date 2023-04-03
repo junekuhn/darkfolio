@@ -54,4 +54,8 @@ a {
     border-bottom: 1.5px solid currentColor;
   }
 }
+
+a:link, a:visited {
+  color: white;
+}
 </style>
