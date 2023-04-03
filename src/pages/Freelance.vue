@@ -2,7 +2,7 @@
     import LogoSVG from "@/components/svg/LogoSVG.vue";
     import MiniMenu from "@/components/MiniMenu.vue";
     import coords from "@/data/coords.json";
-    import gsap from 'gsap'
+    import { gsap } from 'gsap'
     import {
         PlaneGeometry,
         BufferAttribute,
@@ -15,6 +15,10 @@
     import { CSS3DObject, CSS3DRenderer } from "three/examples/jsm/renderers/CSS3DRenderer"
     import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js"
     import Footer from "@/components/Footer.vue";
+    import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+    gsap.registerPlugin(ScrollTrigger);
+
 
     const cube = new Group();
 
@@ -45,7 +49,10 @@
                         rotations = {duration: 2, x: 0, y: -1.57};
                         break;
                     case 4:
-                        rotations = {durations: 1, x: 0, y: -3.14}
+                        rotations = {duration: 1, x: 0, y: -3.14}
+                        break;
+                    case 5:
+                        rotations = {duration: 1, x: 1.57, y:0}
                         break;
                     default:
                         rotations = {duration: 2, x: 0, y:0}; 
@@ -69,6 +76,9 @@
             Footer,
         },
         mounted() {
+
+            //toggle click to avoid display bug
+            this.toggleFade();
 
             const clock = new Clock();
             const scene = new Scene();
@@ -154,18 +164,22 @@
                 </div>
                 <div id="2nd-side"> 
                     I’m a freelance <br>creative technologist<br>
-                    working with<br> 3D, audio, and XR
+                    working with<br> <a href="https://justinkuhn.media/wearable-mushroom-log/">3D Generative Art</a>,<br>
+                     <a href="https://justinkuhn.media/planet-echo/">Audio</a>, & 
+                     <a href="https://justinkuhn.media/digital-education-and-learning-technologies-applications-delta/">WebXR</a>
                 </div>
                 <div id="3rd-side">
-                    Delivering <br>websites,<br> landing pages,<br>video, and<br>sound design
+                    I make websites,<br> immersive experiences,<br> sound & video
                 </div>
                 <div id="4th-side">
                     Based in <br>London, UK 
                 </div>
                 <div id="5th-side">
-                    Book a <br>consultation<br>here
+                    Book a <br>consultation <a href="https://calendly.com/justintkuhn/consultation">here</a>
                 </div>
-                <div id="sixth-side"></div>
+                <div id="sixth-side">
+                    Built with Gridsome (Vue 2), <br> Three.js, and GreenSock. <br><a href="https://github.com/justinkuhn/darkfolio">Source</a>
+                </div>
             </div>
         </transition>
         <Footer />
@@ -184,15 +198,18 @@
     position: relative;
     display: grid;
     grid-template-rows: repeat(6, [row-start] 33% [row-end]);
-    padding: 10px;
+    padding: 20px;
 }
 
 #d-container > div {
     background-color: rgba(0,0,0, 0.4);
-    padding: 10px;
+    display: inline;
+    padding-top: 40px;
     margin: 10px;
     height: auto;
-    font-size: 30px;
+    font-size: 25px;
+    text-align:center;
+    vertical-align: middle;
 
     box-shadow: 0px 0px 12px rgba(255,0,255,0.75);
     backdrop-filter: blur(10px);
@@ -201,7 +218,7 @@
 #svg-container {
     width: 100%;
     margin: auto;
-    display: block
+    display: block;
 }
 
 #first-side svg {
@@ -255,6 +272,14 @@
   opacity: 0;
 }
 
+a:link {
+    color: rgb(255, 100, 255);
+}
+
+a:visited {
+    color: rgb(255, 200, 255);
+}
+
 @media  (min-width: 750px) {
     #d-container {
         grid-template-columns: 1fr 1fr 1fr;
@@ -264,6 +289,12 @@
             "main main sidebar"
             "footer footer footer";
         height: 100%;
+    }
+
+    #d-container > div {
+        font-size: 30px;
+        text-align: left;
+        padding: 30px;
     }
 }
 </style>
