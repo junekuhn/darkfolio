@@ -64,6 +64,10 @@ export default {
   opacity: 0;
 }
 
+a:link, a:visited {
+    color:white;
+}
+
 @media screen, (min-width: 750px) {
     #dropdown {
         padding: 10px 60px 20px 0px; 

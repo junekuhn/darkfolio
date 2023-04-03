@@ -22,6 +22,9 @@
       </span>
     </g-link>
     <div class="contact">
+      <g-link to="/freelance">Freelance</g-link>
+    </div>
+    <div class="contact">
       <g-link to="/about/">
           About
       </g-link>
