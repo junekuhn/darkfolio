@@ -192,6 +192,7 @@
 #three-container {
     z-index: -10;
     position: absolute;
+    top: 0px;
 }
 
 #d-container {
