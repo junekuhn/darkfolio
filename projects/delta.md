@@ -1,18 +1,19 @@
 ---
 title: Digital Education & Learning Technologies Applications (DELTA)
-thumbnail: "../static/uploads/2021-02-22-14-20-36.png"
+thumbnail: ../static/uploads/2021-02-22-14-20-36.png
 year: 2019-2021
 categories:
-- Web Development
-- Photogrammetry
-- 3D Graphics
-- Web Audio
-- Spatial Audio
-- Virtual Reality
-- UI/UX
-- Collaborative
-
+  - Web Development
+  - Photogrammetry
+  - 3D Graphics
+  - Web Audio
+  - Spatial Audio
+  - Virtual Reality
+  - UI/UX
+  - Collaborative
+_template: project
 ---
+
 As an Immersive Media Support Specialist at DELTA for over 2 years, I contributed media deliverables to 4 individual college courses, across 3 grant cycles. Other responsibilities included in research and development for immersive media and the evaluation of new immersive media platforms for use in the classroom.  We developed media pipelines for VR Video production and distribution, ambisonic audio integration, photogrammetry, and immersive web-based content. 
 
 ## Contributions

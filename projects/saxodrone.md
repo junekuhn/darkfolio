@@ -1,13 +1,14 @@
 ---
 title: Saxodrone Website
-thumbnail: "../static/uploads/justinkuhn-40.jpg"
-year: "2021"
+thumbnail: ../static/uploads/justinkuhn-40.jpg
+year: '2021'
 categories:
-- Web Design
-- Hydra Live Coding
-- Front-End Web Development
-
+  - Web Design
+  - Hydra Live Coding
+  - Front-End Web Development
+_template: project
 ---
+
 ## [View Completed Project](https://saxodr.one)
 
 In 2020, I created a solo project called Saxodrone.  The idea was to combine what I've seen with synths, guitars, and vocals do with live looping, and see what the saxophone could contribute to that space.

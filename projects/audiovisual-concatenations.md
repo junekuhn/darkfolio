@@ -1,14 +1,15 @@
 ---
 title: Audiovisual Concatenations
-thumbnail: "../static/uploads/audiovisual.png"
-year: "2022"
+thumbnail: ../static/uploads/audiovisual.png
+year: '2022'
 categories:
-- c++
-- openframeworks
-- maxmsp
-- machine learning
-
+  - c++
+  - openframeworks
+  - maxmsp
+  - machine learning
+_template: project
 ---
+
 
 [https://vimeo.com/705105388](https://vimeo.com/705105388 "https://vimeo.com/705105388")
 

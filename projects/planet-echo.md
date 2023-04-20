@@ -1,14 +1,15 @@
 ---
 title: Planet Echo
-thumbnail: '../static/uploads/planetecho.jpg'
-year: "2019"
-categories: 
-- Sonification
-- Spatial Audio
-- SuperCollider
-- Collaborative
-
+thumbnail: ../static/uploads/planetecho.jpg
+year: '2019'
+categories:
+  - Sonification
+  - Spatial Audio
+  - SuperCollider
+  - Collaborative
+_template: project
 ---
+
 
 I built a chain of effects in Supercollider during my residency for Kepler Concordia Launchpad, and the performance took place at Harmony House in Lake Oswego, Oregon.  Played on a 4.1 Quadraphonic array, you can hear the planets travel around the listener and the echos are timed relative to their distance from the sun.  Planet-to-planet proximity is sonified through real-time filtering effects.  Recorded on a Zoom H2N, the spatial positions have been maintained from the performance using ambisonics.
 

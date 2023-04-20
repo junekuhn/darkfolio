@@ -1,11 +1,12 @@
 ---
 title: Superlooper
-thumbnail: "../static/uploads/superlooper.png"
-year: "2022"
+thumbnail: ../static/uploads/superlooper.png
+year: '2022'
 categories:
-- maxmsp
-
+  - maxmsp
+_template: project
 ---
+
 
 A one-channel live looper with overdub, designed for the Arturia Keystep 37 and Expert
 Sleepers 8 Eurorack Module.

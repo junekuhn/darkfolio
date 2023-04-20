@@ -1,15 +1,16 @@
 ---
 title: Mercedonius
-thumbnail: '../static/uploads/clock.jpg'
-year: "2022"
+thumbnail: ../static/uploads/clock.jpg
+year: '2022'
 categories:
-- physical computing
-- mixed reality
-- installation
-- maxmsp
-- spatial audio
-
+  - physical computing
+  - mixed reality
+  - installation
+  - maxmsp
+  - spatial audio
+_template: project
 ---
+
 Mercedonius is an immersive installation consisting of mixed reality audio, mixed media, and physical computing. Headphones, with an attached Vive Tracker, afford 6 degrees-of-freedom binaural audio. This piece explores a malleable relationship with time, allowing the listener to synchronize, de-synchronize, and re-synchronize with objects in the space through interactive audio.
 
 [https://vimeo.com/746795111](https://vimeo.com/746795111)

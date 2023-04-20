@@ -1,15 +1,16 @@
 ---
 title: The Rhombus
-thumbnail: "../static/uploads/rhombus.png"
-year: "2022"
+thumbnail: ../static/uploads/rhombus.png
+year: '2022'
 categories:
-- solidity
-- Typescript
-- web3
-- Live Streaming
-- Collaborative
-
+  - solidity
+  - Typescript
+  - web3
+  - Live Streaming
+  - Collaborative
+_template: project
 ---
+
 The Rhombus is a collective focused on creating monetized live-streaming events and interactive experiences through a virtual 3D venue.  The venue is hosted on Decentraland, a web3-enabled platform with its own ecosystem of virtual land, avatars, and live events.
 
 ## Contributions
